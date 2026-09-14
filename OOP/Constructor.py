@@ -4,7 +4,11 @@ class Student:
     def __init__(self):
         
         print("This is a constructor")
+    @staticmethod
+    def hello():
+        print("Hello Welcome");
 
 s1 = Student()
+s1.hello()
 
 
